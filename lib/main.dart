@@ -227,7 +227,8 @@ Widget _donate() {
     children: [
       TextButton(
         onPressed: () {
-          Uri uri = Uri.parse('https://github.com/MohammadAmin-Andy/portfolio');
+          Uri uri = Uri.parse(
+              'https://github.com/MohammadAmin-Andy/portfolio---remake');
           launchUrl(uri);
           // Handle button press
         },
